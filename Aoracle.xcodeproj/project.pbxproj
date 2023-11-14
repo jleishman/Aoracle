@@ -14,6 +14,7 @@
 		D0B0E4D22B024C9900D507FE /* AoracleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4D12B024C9900D507FE /* AoracleTests.swift */; };
 		D0B0E4DC2B024C9900D507FE /* AoracleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4DB2B024C9900D507FE /* AoracleUITests.swift */; };
 		D0B0E4DE2B024C9900D507FE /* AoracleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4DD2B024C9900D507FE /* AoracleUITestsLaunchTests.swift */; };
+		D0B0E4EB2B024E1D00D507FE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4EA2B024E1D00D507FE /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D0B0E4D72B024C9900D507FE /* AoracleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoracleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B0E4DB2B024C9900D507FE /* AoracleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoracleUITests.swift; sourceTree = "<group>"; };
 		D0B0E4DD2B024C9900D507FE /* AoracleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoracleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0B0E4EA2B024E1D00D507FE /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				D0B0E4BF2B024C9800D507FE /* AoracleApp.swift */,
 				D0B0E4C12B024C9800D507FE /* ContentView.swift */,
+				D0B0E4EA2B024E1D00D507FE /* ContentViewModel.swift */,
 				D0B0E4C32B024C9900D507FE /* Assets.xcassets */,
 				D0B0E4C52B024C9900D507FE /* Aoracle.entitlements */,
 				D0B0E4C62B024C9900D507FE /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				D0B0E4C22B024C9800D507FE /* ContentView.swift in Sources */,
 				D0B0E4C02B024C9800D507FE /* AoracleApp.swift in Sources */,
+				D0B0E4EB2B024E1D00D507FE /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
