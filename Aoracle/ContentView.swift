@@ -23,6 +23,10 @@ struct ContentView: View {
                 .font(.largeTitle)
         }
         
+        #if os(iOS)
+        Rectangle().fill(.clear)
+        #endif
+
         HStack {
             Button(action: {
                 model.append(.blue)
@@ -49,6 +53,10 @@ struct ContentView: View {
             .keyboardShortcut(KeyEquivalent("g"), modifiers: [])
         }
         .padding([.leading, .trailing, .bottom], 10)
+        
+        #if os(iOS)
+        Rectangle().fill(.clear)
+        #endif
         
         Button("About the Aaronson Oracle") {
             openURL(URL(string: "https://duckduckgo.com/?q=aaronson+oracle")!)
