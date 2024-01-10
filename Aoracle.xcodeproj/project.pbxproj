@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D0B0E4C02B024C9800D507FE /* AoracleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4BF2B024C9800D507FE /* AoracleApp.swift */; };
-		D0B0E4C22B024C9800D507FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4C12B024C9800D507FE /* ContentView.swift */; };
+		D0B0E4C22B024C9800D507FE /* OracleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4C12B024C9800D507FE /* OracleView.swift */; };
 		D0B0E4C42B024C9900D507FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B0E4C32B024C9900D507FE /* Assets.xcassets */; };
 		D0B0E4C82B024C9900D507FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B0E4C72B024C9900D507FE /* Preview Assets.xcassets */; };
 		D0B0E4D22B024C9900D507FE /* AoracleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4D12B024C9900D507FE /* AoracleTests.swift */; };
 		D0B0E4DC2B024C9900D507FE /* AoracleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4DB2B024C9900D507FE /* AoracleUITests.swift */; };
 		D0B0E4DE2B024C9900D507FE /* AoracleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4DD2B024C9900D507FE /* AoracleUITestsLaunchTests.swift */; };
-		D0B0E4EB2B024E1D00D507FE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4EA2B024E1D00D507FE /* ContentViewModel.swift */; };
+		D0B0E4EB2B024E1D00D507FE /* OracleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E4EA2B024E1D00D507FE /* OracleViewModel.swift */; };
+		D0FE19A32B07CE39004A3FC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE19A22B07CE39004A3FC7 /* ContentView.swift */; };
+		D0FE19A52B0ABA4E004A3FC7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE19A42B0ABA4E004A3FC7 /* AboutView.swift */; };
+		D0FE19A72B0ABA75004A3FC7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D0FE19A62B0ABA75004A3FC7 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		D0B0E4BC2B024C9800D507FE /* Aoracle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aoracle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B0E4BF2B024C9800D507FE /* AoracleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoracleApp.swift; sourceTree = "<group>"; };
-		D0B0E4C12B024C9800D507FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0B0E4C12B024C9800D507FE /* OracleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleView.swift; sourceTree = "<group>"; };
 		D0B0E4C32B024C9900D507FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B0E4C52B024C9900D507FE /* Aoracle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aoracle.entitlements; sourceTree = "<group>"; };
 		D0B0E4C72B024C9900D507FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,7 +49,10 @@
 		D0B0E4D72B024C9900D507FE /* AoracleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoracleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B0E4DB2B024C9900D507FE /* AoracleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoracleUITests.swift; sourceTree = "<group>"; };
 		D0B0E4DD2B024C9900D507FE /* AoracleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoracleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D0B0E4EA2B024E1D00D507FE /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D0B0E4EA2B024E1D00D507FE /* OracleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleViewModel.swift; sourceTree = "<group>"; };
+		D0FE19A22B07CE39004A3FC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0FE19A42B0ABA4E004A3FC7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		D0FE19A62B0ABA75004A3FC7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +104,13 @@
 			isa = PBXGroup;
 			children = (
 				D0B0E4BF2B024C9800D507FE /* AoracleApp.swift */,
-				D0B0E4C12B024C9800D507FE /* ContentView.swift */,
-				D0B0E4EA2B024E1D00D507FE /* ContentViewModel.swift */,
+				D0FE19A22B07CE39004A3FC7 /* ContentView.swift */,
+				D0B0E4C12B024C9800D507FE /* OracleView.swift */,
+				D0B0E4EA2B024E1D00D507FE /* OracleViewModel.swift */,
+				D0FE19A42B0ABA4E004A3FC7 /* AboutView.swift */,
 				D0B0E4C32B024C9900D507FE /* Assets.xcassets */,
 				D0B0E4C52B024C9900D507FE /* Aoracle.entitlements */,
+				D0FE19A62B0ABA75004A3FC7 /* Localizable.xcstrings */,
 				D0B0E4C62B024C9900D507FE /* Preview Content */,
 			);
 			path = Aoracle;
@@ -238,6 +247,7 @@
 			files = (
 				D0B0E4C82B024C9900D507FE /* Preview Assets.xcassets in Resources */,
 				D0B0E4C42B024C9900D507FE /* Assets.xcassets in Resources */,
+				D0FE19A72B0ABA75004A3FC7 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B0E4C22B024C9800D507FE /* ContentView.swift in Sources */,
+				D0B0E4C22B024C9800D507FE /* OracleView.swift in Sources */,
 				D0B0E4C02B024C9800D507FE /* AoracleApp.swift in Sources */,
-				D0B0E4EB2B024E1D00D507FE /* ContentViewModel.swift in Sources */,
+				D0FE19A32B07CE39004A3FC7 /* ContentView.swift in Sources */,
+				D0B0E4EB2B024E1D00D507FE /* OracleViewModel.swift in Sources */,
+				D0FE19A52B0ABA4E004A3FC7 /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

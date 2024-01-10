@@ -8,7 +8,7 @@
 import Foundation
 import OSLog
 
-class ContentViewModel: ObservableObject {
+class OracleViewModel: ObservableObject {
     let logger = Logger(subsystem: "Aoracle", category: "ContentViewModel")
 
     enum Value: Hashable, CustomStringConvertible {
@@ -72,6 +72,15 @@ class ContentViewModel: ObservableObject {
                 }
             }
         }
+    }
+    
+    func reset() {
+        values = []
+        histogram = [:]
+        prediction = nil
+        correctPredictions = 0
+        totalPredictions = 0
+        predictionPercentage = nil
     }
     
     private func update(_ nGram: [Value], _ next: Value) {

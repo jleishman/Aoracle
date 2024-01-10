@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@%% Correctly Predicted" : {
+
+    },
+    "About Aoracle" : {
+
+    },
+    "About Aoracle Detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See how randomly you can tap on the blue and green buttons. Use one finger on each button, and tap as quickly as possible for the best results. You will probably be surprised that the input is fairly predictable, often higher than 50%.\n\nThis is an example of something called an Aaronson Oracle."
+          }
+        }
+      }
+    },
+    "Book Link Text" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learn more about the Aaronson Oracle"
+          }
+        }
+      }
+    },
+    "Keep tapping" : {
+
+    },
+    "Reset" : {
+
+    }
+  },
+  "version" : "1.0"
+}
